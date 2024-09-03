@@ -34,4 +34,25 @@ export const globalStyles = StyleSheet.create({
     textAlign: 'right',
     fontWeight: '300',
   },
+
+  rowButtons: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    paddingHorizontal: 10,
+  },
+
+  button: {
+    height: 80,
+    borderRadius: 100,
+    backgroundColor: colors.darkGray,
+    justifyContent: 'center',
+    marginHorizontal: 10,
+  },
+  buttonLabel: {
+    color: 'white',
+    padding: 10,
+    fontSize: 30,
+    fontWeight: '300',
+    textAlign: 'center',
+  },
 });
