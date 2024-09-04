@@ -6,7 +6,8 @@ import {useCalculator} from '../hooks/useCalculator';
 
 export const CalculatorScreen = () => {
   const {
-    number,
+    //number,
+    formula,
     prevNumber,
     buildNumber,
     clean,
@@ -24,7 +25,7 @@ export const CalculatorScreen = () => {
         adjustsFontSizeToFit
         numberOfLines={1}
         style={globalStyles.mainResult}>
-        {number}
+        {formula}
       </Text>
       <Text
         adjustsFontSizeToFit
